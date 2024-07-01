@@ -3,7 +3,7 @@ import MovieCard from "./MovieCard";
 
 const MovieList = (props) => {
   const { movieList, title, rating } = props;
-  if (title === "" && rating === "") {
+  if (title === "" && rating === 0) {
     return (
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
         {movieList.map((movie) => (
