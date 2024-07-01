@@ -21,6 +21,7 @@ const MovieDetail = (props) => {
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
+
       <button onClick={() => navigate("/movie")}>Go Back</button>
     </div>
   );
